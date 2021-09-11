@@ -1,2 +1,12 @@
 # Book-Review-and-Recommendation
-Mini Project for 3rd year
+
+Done:
+Connected to firebase
+Sign in (UI Done)
+
+
+To do:
+Sign up (UI Done)
+Book db
+Review system
+ML Engine
