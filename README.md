@@ -1,12 +1,12 @@
 # Book-Review-and-Recommendation
 
-Done:
-Connected to firebase
+Done:<br>
+Connected to firebase <br>
 Sign in (UI Done)
 
 
-To do:
-Sign up (UI Done)
-Book db
-Review system
+To do:<br>
+Sign up (UI Done)<br>
+Book db<br>
+Review system<br>
 ML Engine
