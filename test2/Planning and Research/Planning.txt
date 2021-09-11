@@ -1,0 +1,11 @@
+Requirements:
+
+1. Create account
+2. Log in
+3. Sign up
+4. Display reccomended item
+5. Search for items
+6. Review items
+
+
+
