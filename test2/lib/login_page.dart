@@ -2,10 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:test2/FadeAnimation.dart';
 import 'package:test2/authentication_service.dart';
 import 'package:provider/provider.dart';
+import 'package:test2/Register.dart';
 
 class LoginPage extends StatelessWidget {
   final TextEditingController emailController = TextEditingController();
-  final TextEditingController passswordController = TextEditingController();
+  final TextEditingController passwordController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -117,7 +118,8 @@ class LoginPage extends StatelessWidget {
                                   color: Colors.white,
                                 ),
                                 child: TextField(
-                                  controller: passswordController,
+                                  obscureText: true,
+                                  controller: passwordController,
                                   decoration: InputDecoration(
                                     labelText: "Password",
                                   ),
@@ -158,15 +160,35 @@ class LoginPage extends StatelessWidget {
             //     labelText: "Password",
             //   ),
             // ),
-            ElevatedButton(onPressed: ()
+
+            Row(
+              children: [
+                Padding(padding:
+                EdgeInsets.all(35.0),
+                ),
+                ElevatedButton(onPressed: ()
+                    {
+                      context.read<AuthenticationService>().signIn(
+                        email: emailController.text.trim(),
+                        password: passwordController.text.trim()
+                      );
+                    },
+                    child:
+                    Text("Sign in"),
+                ),
+                Padding(padding:
+                  EdgeInsets.all(35.0)
+                ),
+                ElevatedButton(onPressed: ()
                 {
-                  context.read<AuthenticationService>().signIn(
-                    email: emailController.text.trim(),
-                    password: passswordController.text.trim()
-                  );
-                },
-                child: Text("Sign in"),
-            )
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context)=>Register()));
+                }
+                    , child: Text("Register")
+                ),
+              ],
+            ),
+
           ],
         ),
             ),

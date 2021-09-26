@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import 'package:test2/authentication_service.dart';
 import 'package:test2/home_page.dart';
 import 'package:test2/login_page.dart';
+import 'package:test2/Register.dart';
 
 Future<void> main() async{
   WidgetsFlutterBinding.ensureInitialized();
