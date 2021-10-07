@@ -1,5 +1,9 @@
 # Book-Review-and-Recommendation
 
+<br>
+=> test2/Assets has all the assets used for the sign in and sign up UI, store any addtional assets there <br>
+
+
 Done:<br>
 Connected to firebase <br>
 Sign in (UI Done)<br>
