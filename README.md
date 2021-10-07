@@ -2,8 +2,9 @@
 
 <br>
 => test2/Assets has all the assets used for the sign in and sign up UI, store any addtional assets there <br>
-
-
+=> test2/lib has all the current codes <br>
+<br>
+<br>
 Done:<br>
 Connected to firebase <br>
 Sign in (UI Done)<br>
