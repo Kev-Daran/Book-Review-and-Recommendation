@@ -16,8 +16,3 @@ ML Engine<br> <br>
 
 
 
-
-
-BUGS:<br>
-1. Forms are displayed one overthe other rather than toggling (Put forms in wrapper)
-2. After pressing Register show home screen
